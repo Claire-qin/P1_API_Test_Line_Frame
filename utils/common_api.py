@@ -19,8 +19,8 @@ def get_access_token_api(grant_type,appid,secret):
 
 def get_access_token_value():
     response = get_access_token_api('client_credential',
-                                 'wxb9013645f9c6f66b',
-                                 '8c80367d3fac3cb6d3dc910fe6416436')
+                                 'aaa',
+                                 'bbb')
     # print(response.json()['access_token'])
     return response.json()['access_token']
 
